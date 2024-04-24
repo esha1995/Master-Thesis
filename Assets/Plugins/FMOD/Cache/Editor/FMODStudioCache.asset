@@ -1,0 +1,3875 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9213930669393064241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../Documents/Master Thesis/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638495579697689698
+  FileSizes:
+  - Name: Desktop
+    Value: 2002
+  Exists: 1
+--- !u!114 &-8994466410168945878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambisonic
+  m_EditorClassIdentifier: 
+  Path: event:/Ambisonic
+  Guid:
+    Data1: -842899325
+    Data2: 1217465880
+    Data3: -1558224468
+    Data4: 780572324
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 150045
+--- !u!114 &-8857301690904031212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/8khz
+  m_EditorClassIdentifier: 
+  Name: 8khz
+  StudioPath: parameter:/8khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 408376718
+    data2: 4146485159
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8841370649117151797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Microphone
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Microphone
+  Guid:
+    Data1: -2058452705
+    Data2: 1088913257
+    Data3: -160952146
+    Data4: -1612118092
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-8682267024013432038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/CeramicFootstep
+  m_EditorClassIdentifier: 
+  Name: CeramicFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3366868049
+    data2: 3996130020
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8493846163988812900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child2
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child2
+  Guid:
+    Data1: -1452033416
+    Data2: 1191513826
+    Data3: -1380841087
+    Data4: 1990437153
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51905
+--- !u!114 &-8475812945173149973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/4khz
+  m_EditorClassIdentifier: 
+  Name: 4khz
+  StudioPath: parameter:/4khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3553367776
+    data2: 1697675227
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8286422952718254307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/WoodFootstep
+  m_EditorClassIdentifier: 
+  Name: WoodFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1097864552
+    data2: 2256039248
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8158282923756024207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MODERATE R
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MODERATE R
+  Guid:
+    Data1: -548990526
+    Data2: 1278642643
+    Data3: -379822146
+    Data4: -1462587053
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-8058090058543438161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/500hz
+  m_EditorClassIdentifier: 
+  Name: 500hz
+  StudioPath: parameter:/500hz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1572200118
+    data2: 3290606025
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7644288654436748060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/CeramicFootstep
+  m_EditorClassIdentifier: 
+  Name: CeramicFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3366868049
+    data2: 3996130020
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7621762287047789219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOSS L
+  m_EditorClassIdentifier: 
+  Name: LOSS L
+  StudioPath: parameter:/LOSS L
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 635713582
+    data2: 3255409548
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - OFF
+  - MILD
+  - MODERATE
+  - SEVERE
+  Exists: 1
+--- !u!114 &-7523359254196866464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOSS L
+  m_EditorClassIdentifier: 
+  Name: LOSS L
+  StudioPath: parameter:/LOSS L
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 635713582
+    data2: 3255409548
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - OFF
+  - MILD
+  - MODERATE
+  - SEVERE
+  Exists: 1
+--- !u!114 &-7315975623207889969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Teacher
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Teacher
+  Guid:
+    Data1: -477755750
+    Data2: 1261409497
+    Data3: -1709223521
+    Data4: -1869766955
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 140325
+--- !u!114 &-7171870326339310097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/1khz
+  m_EditorClassIdentifier: 
+  Name: 1khz
+  StudioPath: parameter:/1khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3524297901
+    data2: 553382384
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7108144411061564099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CeramicFootstep
+  m_EditorClassIdentifier: 
+  Name: CeramicFootstep
+  StudioPath: parameter:/CeramicFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3366868049
+    data2: 3996130020
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7083195624578558698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MILD R
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MILD R
+  Guid:
+    Data1: 1279913258
+    Data2: 1212797565
+    Data3: -28800891
+    Data4: 1280037478
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-7053839142717700017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child3
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child3
+  Guid:
+    Data1: -933894714
+    Data2: 1209694581
+    Data3: 205910161
+    Data4: -996698498
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46680
+--- !u!114 &-6954659328453342147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOSS R
+  m_EditorClassIdentifier: 
+  Name: LOSS R
+  StudioPath: parameter:/LOSS R
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2361203044
+    data2: 3659474634
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - OFF
+  - MILD
+  - MODERATE
+  - SEVERE
+  Exists: 1
+--- !u!114 &-6919140929198271104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/2khz
+  m_EditorClassIdentifier: 
+  Name: 2khz
+  StudioPath: parameter:/2khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3982587057
+    data2: 1533781865
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6903132299172575667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/250
+  m_EditorClassIdentifier: 
+  Name: 250
+  StudioPath: parameter:/250
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1989632579
+    data2: 2347178880
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6880873217064734842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MODERATE R
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MODERATE R
+  Guid:
+    Data1: -548990526
+    Data2: 1278642643
+    Data3: -379822146
+    Data4: -1462587053
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-6282051005631026384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child3
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child3
+  Guid:
+    Data1: -933894714
+    Data2: 1209694581
+    Data3: 205910161
+    Data4: -996698498
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46680
+--- !u!114 &-6256355582848531240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MILD L
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MILD L
+  Guid:
+    Data1: 1426535460
+    Data2: 1269449528
+    Data3: 221573293
+    Data4: 279033097
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-6186248443571119406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MODERATE R
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MODERATE R
+  Guid:
+    Data1: -548990526
+    Data2: 1278642643
+    Data3: -379822146
+    Data4: -1462587053
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-5850030059314144155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MILD L
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MILD L
+  Guid:
+    Data1: 1426535460
+    Data2: 1269449528
+    Data3: 221573293
+    Data4: 279033097
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-5828732007437869754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodFootstep
+  m_EditorClassIdentifier: 
+  Name: WoodFootstep
+  StudioPath: parameter:/WoodFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1097864552
+    data2: 2256039248
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5738571478058043170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/8khz
+  m_EditorClassIdentifier: 
+  Name: 8khz
+  StudioPath: parameter:/8khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 408376718
+    data2: 4146485159
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5577575659254102450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CeramicFootstep
+  m_EditorClassIdentifier: 
+  Name: CeramicFootstep
+  StudioPath: parameter:/CeramicFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3366868049
+    data2: 3996130020
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5504744099891505512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child3
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child3
+  Guid:
+    Data1: -933894714
+    Data2: 1209694581
+    Data3: 205910161
+    Data4: -996698498
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46680
+--- !u!114 &-5455567747355536340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOSS L
+  m_EditorClassIdentifier: 
+  Name: LOSS L
+  StudioPath: parameter:/LOSS L
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 635713582
+    data2: 3255409548
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - OFF
+  - MILD
+  - MODERATE
+  - SEVERE
+  Exists: 1
+--- !u!114 &-5374585079861909974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MILD R
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MILD R
+  Guid:
+    Data1: 1279913258
+    Data2: 1212797565
+    Data3: -28800891
+    Data4: 1280037478
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-5355512954203987124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Microphone
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Microphone
+  Guid:
+    Data1: -2058452705
+    Data2: 1088913257
+    Data3: -160952146
+    Data4: -1612118092
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-4998395392119148631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child2
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child2
+  Guid:
+    Data1: -1452033416
+    Data2: 1191513826
+    Data3: -1380841087
+    Data4: 1990437153
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51905
+--- !u!114 &-4959460384427825314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MODERATE L
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MODERATE L
+  Guid:
+    Data1: 1148827818
+    Data2: 1280724030
+    Data3: 629116824
+    Data4: -1350919293
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-4829968554641465791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodFootstep
+  m_EditorClassIdentifier: 
+  Name: WoodFootstep
+  StudioPath: parameter:/WoodFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1097864552
+    data2: 2256039248
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4799153928489778462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/8khz
+  m_EditorClassIdentifier: 
+  Name: 8khz
+  StudioPath: parameter:/8khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 408376718
+    data2: 4146485159
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4753039461945159289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MILD L
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MILD L
+  Guid:
+    Data1: 1426535460
+    Data2: 1269449528
+    Data3: 221573293
+    Data4: 279033097
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-4664840555939099405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MILD R
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MILD R
+  Guid:
+    Data1: 1279913258
+    Data2: 1212797565
+    Data3: -28800891
+    Data4: 1280037478
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-4646107833422532751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child1
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child1
+  Guid:
+    Data1: 38965637
+    Data2: 1269929591
+    Data3: -1678590535
+    Data4: 1501034624
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44486
+--- !u!114 &-4597491337429902731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/WoodFootstep
+  m_EditorClassIdentifier: 
+  Name: WoodFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1097864552
+    data2: 2256039248
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4368937242311875772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Footsteps
+  Guid:
+    Data1: 1721006758
+    Data2: 1202941760
+    Data3: 1696204676
+    Data4: 1630469214
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8286422952718254307}
+  - {fileID: -1600480321935928838}
+  - {fileID: 2720007691330869523}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-4347635526480024299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Microphone
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Microphone
+  Guid:
+    Data1: -2058452705
+    Data2: 1088913257
+    Data3: -160952146
+    Data4: -1612118092
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-4298433902264552512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambisonic
+  m_EditorClassIdentifier: 
+  Path: event:/Ambisonic
+  Guid:
+    Data1: -842899325
+    Data2: 1217465880
+    Data3: -1558224468
+    Data4: 780572324
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 150045
+--- !u!114 &-4030398237593181749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Footsteps
+  Guid:
+    Data1: 1721006758
+    Data2: 1202941760
+    Data3: 1696204676
+    Data4: 1630469214
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7405469633366590855}
+  - {fileID: 2749868096607894849}
+  - {fileID: 8525781220229758304}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-3966799003942292694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Teacher
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Teacher
+  Guid:
+    Data1: -477755750
+    Data2: 1261409497
+    Data3: -1709223521
+    Data4: -1869766955
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 140325
+--- !u!114 &-3899575332148266344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Footsteps
+  Guid:
+    Data1: 1721006758
+    Data2: 1202941760
+    Data3: 1696204676
+    Data4: 1630469214
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7930240280513871535}
+  - {fileID: 4269662520826937785}
+  - {fileID: 6172735941390117695}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-3895304058392653017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambisonic
+  m_EditorClassIdentifier: 
+  Path: event:/Ambisonic
+  Guid:
+    Data1: -842899325
+    Data2: 1217465880
+    Data3: -1558224468
+    Data4: 780572324
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 150045
+--- !u!114 &-3792282040760986441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/4khz
+  m_EditorClassIdentifier: 
+  Name: 4khz
+  StudioPath: parameter:/4khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3553367776
+    data2: 1697675227
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3776993426273526357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Playground
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Playground
+  Guid:
+    Data1: -213402492
+    Data2: 1147094698
+    Data3: -622401633
+    Data4: -1488394631
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 255192
+--- !u!114 &-3484697112354344985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Playground
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Playground
+  Guid:
+    Data1: -213402492
+    Data2: 1147094698
+    Data3: -622401633
+    Data4: -1488394631
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 255192
+--- !u!114 &-2863093748610691994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Microphone
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Microphone
+  Guid:
+    Data1: -2058452705
+    Data2: 1088913257
+    Data3: -160952146
+    Data4: -1612118092
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-2789422475118553604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/250
+  m_EditorClassIdentifier: 
+  Name: 250
+  StudioPath: parameter:/250
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1989632579
+    data2: 2347178880
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2439436675619933458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../Documents/Master Thesis/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638495592688648329
+  FileSizes:
+  - Name: Desktop
+    Value: 32763872
+  Exists: 1
+--- !u!114 &-2379327904637133530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/250
+  m_EditorClassIdentifier: 
+  Name: 250
+  StudioPath: parameter:/250
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1989632579
+    data2: 2347178880
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2080479197292427015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../Documents/Master Thesis/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638495581332104921
+  FileSizes:
+  - Name: Desktop
+    Value: 2002
+  Exists: 1
+--- !u!114 &-1952907225928918015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/OFF
+  m_EditorClassIdentifier: 
+  Path: snapshot:/OFF
+  Guid:
+    Data1: -869568926
+    Data2: 1083600905
+    Data3: 1267201455
+    Data4: 909639127
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-1757532290935358904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CarpetFootstep
+  m_EditorClassIdentifier: 
+  Name: CarpetFootstep
+  StudioPath: parameter:/CarpetFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2010735957
+    data2: 2242746060
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1600480321935928838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/CarpetFootstep
+  m_EditorClassIdentifier: 
+  Name: CarpetFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2010735957
+    data2: 2242746060
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1465725205713269777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MODERATE L
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MODERATE L
+  Guid:
+    Data1: 1148827818
+    Data2: 1280724030
+    Data3: 629116824
+    Data4: -1350919293
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-1207308549966473120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/500hz
+  m_EditorClassIdentifier: 
+  Name: 500hz
+  StudioPath: parameter:/500hz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1572200118
+    data2: 3290606025
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1006160654650711522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOSS R
+  m_EditorClassIdentifier: 
+  Name: LOSS R
+  StudioPath: parameter:/LOSS R
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2361203044
+    data2: 3659474634
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - OFF
+  - MILD
+  - MODERATE
+  - SEVERE
+  Exists: 1
+--- !u!114 &-808026633166772234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/MusicSpeaker
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/MusicSpeaker
+  Guid:
+    Data1: -684173439
+    Data2: 1084961663
+    Data3: -1259535730
+    Data4: -541116789
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 212453
+--- !u!114 &-788506820206530596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child2
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child2
+  Guid:
+    Data1: -1452033416
+    Data2: 1191513826
+    Data3: -1380841087
+    Data4: 1990437153
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51905
+--- !u!114 &-745135525903909062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/CarpetFootstep
+  m_EditorClassIdentifier: 
+  Name: CarpetFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2010735957
+    data2: 2242746060
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-657325463674891494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MILD R
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MILD R
+  Guid:
+    Data1: 1279913258
+    Data2: 1212797565
+    Data3: -28800891
+    Data4: 1280037478
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-617792049247349423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOSS R
+  m_EditorClassIdentifier: 
+  Name: LOSS R
+  StudioPath: parameter:/LOSS R
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2361203044
+    data2: 3659474634
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - OFF
+  - MILD
+  - MODERATE
+  - SEVERE
+  Exists: 1
+--- !u!114 &-556619831901837335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/250
+  m_EditorClassIdentifier: 
+  Name: 250
+  StudioPath: parameter:/250
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1989632579
+    data2: 2347178880
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-551303163547850128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/2khz
+  m_EditorClassIdentifier: 
+  Name: 2khz
+  StudioPath: parameter:/2khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3982587057
+    data2: 1533781865
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-323956984037768404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../Documents/Master Thesis/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638495579697673152
+  FileSizes:
+  - Name: Desktop
+    Value: 32763872
+  Exists: 1
+--- !u!114 &-264052306677392738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/2khz
+  m_EditorClassIdentifier: 
+  Name: 2khz
+  StudioPath: parameter:/2khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3982587057
+    data2: 1533781865
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-143504110586865825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Footsteps
+  Guid:
+    Data1: 1721006758
+    Data2: 1202941760
+    Data3: 1696204676
+    Data4: 1630469214
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -4597491337429902731}
+  - {fileID: -745135525903909062}
+  - {fileID: -8682267024013432038}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-30048760869512627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Footsteps
+  Guid:
+    Data1: 1721006758
+    Data2: 1202941760
+    Data3: 1696204676
+    Data4: 1630469214
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4119891421112675787}
+  - {fileID: 649543836496494087}
+  - {fileID: -7644288654436748060}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-26338666685972671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodFootstep
+  m_EditorClassIdentifier: 
+  Name: WoodFootstep
+  StudioPath: parameter:/WoodFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1097864552
+    data2: 2256039248
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 7736471461527274980}
+  - {fileID: -2439436675619933458}
+  EditorEvents:
+  - {fileID: -2863093748610691994}
+  - {fileID: -6256355582848531240}
+  - {fileID: -7083195624578558698}
+  - {fileID: 8306366577072919652}
+  - {fileID: -8493846163988812900}
+  - {fileID: 3058257508453051191}
+  - {fileID: -8994466410168945878}
+  - {fileID: -3484697112354344985}
+  - {fileID: 2840909145636289635}
+  - {fileID: 7853960980208199648}
+  - {fileID: -4368937242311875772}
+  - {fileID: 2246710560194448206}
+  - {fileID: 4474214364837443199}
+  - {fileID: 7271717392022065233}
+  EditorParameters:
+  - {fileID: -6919140929198271104}
+  - {fileID: 5388060598516148533}
+  - {fileID: 3010071284658268811}
+  - {fileID: -5738571478058043170}
+  - {fileID: -5577575659254102450}
+  - {fileID: 3939938863868108384}
+  - {fileID: 3638710287703767736}
+  - {fileID: 1294540348740097029}
+  - {fileID: -5455567747355536340}
+  - {fileID: 466755787677739759}
+  - {fileID: -6903132299172575667}
+  MasterBanks:
+  - {fileID: -2439436675619933458}
+  StringsBanks:
+  - {fileID: 7736471461527274980}
+  cacheTime: 638495592688661544
+  cacheVersion: 131840
+--- !u!114 &177697064035390971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MODERATE L
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MODERATE L
+  Guid:
+    Data1: 1148827818
+    Data2: 1280724030
+    Data3: 629116824
+    Data4: -1350919293
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &295333477717178129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/MusicSpeaker
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/MusicSpeaker
+  Guid:
+    Data1: -684173439
+    Data2: 1084961663
+    Data3: -1259535730
+    Data4: -541116789
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 212453
+--- !u!114 &466755787677739759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/4khz
+  m_EditorClassIdentifier: 
+  Name: 4khz
+  StudioPath: parameter:/4khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3553367776
+    data2: 1697675227
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &649543836496494087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/CarpetFootstep
+  m_EditorClassIdentifier: 
+  Name: CarpetFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2010735957
+    data2: 2242746060
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &656625377306298806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/500hz
+  m_EditorClassIdentifier: 
+  Name: 500hz
+  StudioPath: parameter:/500hz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1572200118
+    data2: 3290606025
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &669357982765197188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOSS L
+  m_EditorClassIdentifier: 
+  Name: LOSS L
+  StudioPath: parameter:/LOSS L
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 635713582
+    data2: 3255409548
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - OFF
+  - MILD
+  - MODERATE
+  - SEVERE
+  Exists: 1
+--- !u!114 &971105858762808780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Playground
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Playground
+  Guid:
+    Data1: -213402492
+    Data2: 1147094698
+    Data3: -622401633
+    Data4: -1488394631
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 255192
+--- !u!114 &1294540348740097029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOSS R
+  m_EditorClassIdentifier: 
+  Name: LOSS R
+  StudioPath: parameter:/LOSS R
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2361203044
+    data2: 3659474634
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - OFF
+  - MILD
+  - MODERATE
+  - SEVERE
+  Exists: 1
+--- !u!114 &1329044846746086040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/1khz
+  m_EditorClassIdentifier: 
+  Name: 1khz
+  StudioPath: parameter:/1khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3524297901
+    data2: 553382384
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1689752460796917809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/4khz
+  m_EditorClassIdentifier: 
+  Name: 4khz
+  StudioPath: parameter:/4khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3553367776
+    data2: 1697675227
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1780820411521422033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CarpetFootstep
+  m_EditorClassIdentifier: 
+  Name: CarpetFootstep
+  StudioPath: parameter:/CarpetFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2010735957
+    data2: 2242746060
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1846924592440416992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../Documents/Master Thesis/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638495550820645974
+  FileSizes:
+  - Name: Desktop
+    Value: 32763872
+  Exists: 1
+--- !u!114 &1945939253292373959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/500hz
+  m_EditorClassIdentifier: 
+  Name: 500hz
+  StudioPath: parameter:/500hz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1572200118
+    data2: 3290606025
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1972215956089020109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CarpetFootstep
+  m_EditorClassIdentifier: 
+  Name: CarpetFootstep
+  StudioPath: parameter:/CarpetFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2010735957
+    data2: 2242746060
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2078859740475241242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MODERATE R
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MODERATE R
+  Guid:
+    Data1: -548990526
+    Data2: 1278642643
+    Data3: -379822146
+    Data4: -1462587053
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2246710560194448206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MODERATE L
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MODERATE L
+  Guid:
+    Data1: 1148827818
+    Data2: 1280724030
+    Data3: 629116824
+    Data4: -1350919293
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2292228646305325869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/1khz
+  m_EditorClassIdentifier: 
+  Name: 1khz
+  StudioPath: parameter:/1khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3524297901
+    data2: 553382384
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2547657810480647870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/MusicSpeaker
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/MusicSpeaker
+  Guid:
+    Data1: -684173439
+    Data2: 1084961663
+    Data3: -1259535730
+    Data4: -541116789
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 212453
+--- !u!114 &2649698039206461908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOSS L
+  m_EditorClassIdentifier: 
+  Name: LOSS L
+  StudioPath: parameter:/LOSS L
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 635713582
+    data2: 3255409548
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - OFF
+  - MILD
+  - MODERATE
+  - SEVERE
+  Exists: 1
+--- !u!114 &2720007691330869523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/CeramicFootstep
+  m_EditorClassIdentifier: 
+  Name: CeramicFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3366868049
+    data2: 3996130020
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2749868096607894849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/CarpetFootstep
+  m_EditorClassIdentifier: 
+  Name: CarpetFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2010735957
+    data2: 2242746060
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2840909145636289635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child1
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child1
+  Guid:
+    Data1: 38965637
+    Data2: 1269929591
+    Data3: -1678590535
+    Data4: 1501034624
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44486
+--- !u!114 &2936504662101071127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOSS R
+  m_EditorClassIdentifier: 
+  Name: LOSS R
+  StudioPath: parameter:/LOSS R
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2361203044
+    data2: 3659474634
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - OFF
+  - MILD
+  - MODERATE
+  - SEVERE
+  Exists: 1
+--- !u!114 &3010071284658268811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/1khz
+  m_EditorClassIdentifier: 
+  Name: 1khz
+  StudioPath: parameter:/1khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3524297901
+    data2: 553382384
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3034106992777438367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambisonic
+  m_EditorClassIdentifier: 
+  Path: event:/Ambisonic
+  Guid:
+    Data1: -842899325
+    Data2: 1217465880
+    Data3: -1558224468
+    Data4: 780572324
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 150045
+--- !u!114 &3058257508453051191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/MusicSpeaker
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/MusicSpeaker
+  Guid:
+    Data1: -684173439
+    Data2: 1084961663
+    Data3: -1259535730
+    Data4: -541116789
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 212453
+--- !u!114 &3331670038618683771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CeramicFootstep
+  m_EditorClassIdentifier: 
+  Name: CeramicFootstep
+  StudioPath: parameter:/CeramicFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3366868049
+    data2: 3996130020
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3499403110095958605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child1
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child1
+  Guid:
+    Data1: 38965637
+    Data2: 1269929591
+    Data3: -1678590535
+    Data4: 1501034624
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44486
+--- !u!114 &3638710287703767736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/500hz
+  m_EditorClassIdentifier: 
+  Name: 500hz
+  StudioPath: parameter:/500hz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1572200118
+    data2: 3290606025
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3792705588053523984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/MusicSpeaker
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/MusicSpeaker
+  Guid:
+    Data1: -684173439
+    Data2: 1084961663
+    Data3: -1259535730
+    Data4: -541116789
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 212453
+--- !u!114 &3898396418107368573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MODERATE L
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MODERATE L
+  Guid:
+    Data1: 1148827818
+    Data2: 1280724030
+    Data3: 629116824
+    Data4: -1350919293
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &3926827606738358381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/OFF
+  m_EditorClassIdentifier: 
+  Path: snapshot:/OFF
+  Guid:
+    Data1: -869568926
+    Data2: 1083600905
+    Data3: 1267201455
+    Data4: 909639127
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &3939938863868108384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CarpetFootstep
+  m_EditorClassIdentifier: 
+  Name: CarpetFootstep
+  StudioPath: parameter:/CarpetFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2010735957
+    data2: 2242746060
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3971746066220723799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child1
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child1
+  Guid:
+    Data1: 38965637
+    Data2: 1269929591
+    Data3: -1678590535
+    Data4: 1501034624
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44486
+--- !u!114 &4119891421112675787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/WoodFootstep
+  m_EditorClassIdentifier: 
+  Name: WoodFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1097864552
+    data2: 2256039248
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4269662520826937785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/CarpetFootstep
+  m_EditorClassIdentifier: 
+  Name: CarpetFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2010735957
+    data2: 2242746060
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4474214364837443199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MODERATE R
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MODERATE R
+  Guid:
+    Data1: -548990526
+    Data2: 1278642643
+    Data3: -379822146
+    Data4: -1462587053
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &4754082074663594455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../Documents/Master Thesis/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638495581332062750
+  FileSizes:
+  - Name: Desktop
+    Value: 32763872
+  Exists: 1
+--- !u!114 &4814456388081185181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/2khz
+  m_EditorClassIdentifier: 
+  Name: 2khz
+  StudioPath: parameter:/2khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3982587057
+    data2: 1533781865
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4869513382952253357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Teacher
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Teacher
+  Guid:
+    Data1: -477755750
+    Data2: 1261409497
+    Data3: -1709223521
+    Data4: -1869766955
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 140325
+--- !u!114 &4983060500975653599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child2
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child2
+  Guid:
+    Data1: -1452033416
+    Data2: 1191513826
+    Data3: -1380841087
+    Data4: 1990437153
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51905
+--- !u!114 &5046234802558361263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child1
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child1
+  Guid:
+    Data1: 38965637
+    Data2: 1269929591
+    Data3: -1678590535
+    Data4: 1501034624
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44486
+--- !u!114 &5090888524748303455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../Documents/Master Thesis/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638495550820668266
+  FileSizes:
+  - Name: Desktop
+    Value: 2002
+  Exists: 1
+--- !u!114 &5388060598516148533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodFootstep
+  m_EditorClassIdentifier: 
+  Name: WoodFootstep
+  StudioPath: parameter:/WoodFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1097864552
+    data2: 2256039248
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5657226330831327738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Microphone
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Microphone
+  Guid:
+    Data1: -2058452705
+    Data2: 1088913257
+    Data3: -160952146
+    Data4: -1612118092
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &5789754144700240950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/4khz
+  m_EditorClassIdentifier: 
+  Name: 4khz
+  StudioPath: parameter:/4khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3553367776
+    data2: 1697675227
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5815319283939115810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../Documents/Master Thesis/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638495573216612305
+  FileSizes:
+  - Name: Desktop
+    Value: 2002
+  Exists: 1
+--- !u!114 &6172735941390117695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/CeramicFootstep
+  m_EditorClassIdentifier: 
+  Name: CeramicFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3366868049
+    data2: 3996130020
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6188618671085101252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodFootstep
+  m_EditorClassIdentifier: 
+  Name: WoodFootstep
+  StudioPath: parameter:/WoodFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1097864552
+    data2: 2256039248
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6331979714016200805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MILD L
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MILD L
+  Guid:
+    Data1: 1426535460
+    Data2: 1269449528
+    Data3: 221573293
+    Data4: 279033097
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &6867387940470685615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CarpetFootstep
+  m_EditorClassIdentifier: 
+  Name: CarpetFootstep
+  StudioPath: parameter:/CarpetFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2010735957
+    data2: 2242746060
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6931754482768103046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambisonic
+  m_EditorClassIdentifier: 
+  Path: event:/Ambisonic
+  Guid:
+    Data1: -842899325
+    Data2: 1217465880
+    Data3: -1558224468
+    Data4: 780572324
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 150045
+--- !u!114 &6974666825446849023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child3
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child3
+  Guid:
+    Data1: -933894714
+    Data2: 1209694581
+    Data3: 205910161
+    Data4: -996698498
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46680
+--- !u!114 &6976661616300070061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MILD L
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MILD L
+  Guid:
+    Data1: 1426535460
+    Data2: 1269449528
+    Data3: 221573293
+    Data4: 279033097
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &7087498669703967976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CeramicFootstep
+  m_EditorClassIdentifier: 
+  Name: CeramicFootstep
+  StudioPath: parameter:/CeramicFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3366868049
+    data2: 3996130020
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7271717392022065233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child3
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child3
+  Guid:
+    Data1: -933894714
+    Data2: 1209694581
+    Data3: 205910161
+    Data4: -996698498
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46680
+--- !u!114 &7405469633366590855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/WoodFootstep
+  m_EditorClassIdentifier: 
+  Name: WoodFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1097864552
+    data2: 2256039248
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7546781493194452261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/8khz
+  m_EditorClassIdentifier: 
+  Name: 8khz
+  StudioPath: parameter:/8khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 408376718
+    data2: 4146485159
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7550688934134574942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/2khz
+  m_EditorClassIdentifier: 
+  Name: 2khz
+  StudioPath: parameter:/2khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3982587057
+    data2: 1533781865
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7679466281698505443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Teacher
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Teacher
+  Guid:
+    Data1: -477755750
+    Data2: 1261409497
+    Data3: -1709223521
+    Data4: -1869766955
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 140325
+--- !u!114 &7736471461527274980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../Documents/Master Thesis/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638495592688661544
+  FileSizes:
+  - Name: Desktop
+    Value: 2002
+  Exists: 1
+--- !u!114 &7780332382771843332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/1khz
+  m_EditorClassIdentifier: 
+  Name: 1khz
+  StudioPath: parameter:/1khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3524297901
+    data2: 553382384
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7805688928852888698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Playground
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Playground
+  Guid:
+    Data1: -213402492
+    Data2: 1147094698
+    Data3: -622401633
+    Data4: -1488394631
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 255192
+--- !u!114 &7829565941144337106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MILD R
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MILD R
+  Guid:
+    Data1: 1279913258
+    Data2: 1212797565
+    Data3: -28800891
+    Data4: 1280037478
+  Banks:
+  - {fileID: 8045275727863703360}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &7853960980208199648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Teacher
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Teacher
+  Guid:
+    Data1: -477755750
+    Data2: 1261409497
+    Data3: -1709223521
+    Data4: -1869766955
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 140325
+--- !u!114 &7930240280513871535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/WoodFootstep
+  m_EditorClassIdentifier: 
+  Name: WoodFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1097864552
+    data2: 2256039248
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7980212161208578509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CeramicFootstep
+  m_EditorClassIdentifier: 
+  Name: CeramicFootstep
+  StudioPath: parameter:/CeramicFootstep
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3366868049
+    data2: 3996130020
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8019715430216068581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Playground
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Playground
+  Guid:
+    Data1: -213402492
+    Data2: 1147094698
+    Data3: -622401633
+    Data4: -1488394631
+  Banks:
+  - {fileID: 4754082074663594455}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 255192
+--- !u!114 &8045275727863703360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../Documents/Master Thesis/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638495573216593995
+  FileSizes:
+  - Name: Desktop
+    Value: 32763872
+  Exists: 1
+--- !u!114 &8306366577072919652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/OFF
+  m_EditorClassIdentifier: 
+  Path: snapshot:/OFF
+  Guid:
+    Data1: -869568926
+    Data2: 1083600905
+    Data3: 1267201455
+    Data4: 909639127
+  Banks:
+  - {fileID: -2439436675619933458}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &8385677071363242189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/8khz
+  m_EditorClassIdentifier: 
+  Name: 8khz
+  StudioPath: parameter:/8khz
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 408376718
+    data2: 4146485159
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8420669293548439803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/OFF
+  m_EditorClassIdentifier: 
+  Path: snapshot:/OFF
+  Guid:
+    Data1: -869568926
+    Data2: 1083600905
+    Data3: 1267201455
+    Data4: 909639127
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &8525781220229758304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/CeramicFootstep
+  m_EditorClassIdentifier: 
+  Name: CeramicFootstep
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3366868049
+    data2: 3996130020
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8694755373173849811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound sources/Child2
+  m_EditorClassIdentifier: 
+  Path: event:/Sound sources/Child2
+  Guid:
+    Data1: -1452033416
+    Data2: 1191513826
+    Data3: -1380841087
+    Data4: 1990437153
+  Banks:
+  - {fileID: -323956984037768404}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51905
+--- !u!114 &8879826409265998320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/OFF
+  m_EditorClassIdentifier: 
+  Path: snapshot:/OFF
+  Guid:
+    Data1: -869568926
+    Data2: 1083600905
+    Data3: 1267201455
+    Data4: 909639127
+  Banks:
+  - {fileID: 1846924592440416992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &9000823574980115984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/250
+  m_EditorClassIdentifier: 
+  Name: 250
+  StudioPath: parameter:/250
+  Min: -80
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1989632579
+    data2: 2347178880
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
