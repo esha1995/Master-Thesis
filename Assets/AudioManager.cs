@@ -8,10 +8,11 @@ using System.Runtime.InteropServices;
 using FMOD.Studio;
 using UnityEngine.Rendering;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
-
+    public Button micUIButton;
 
     public EventReference micRef;
     public RecordMic recMic;
