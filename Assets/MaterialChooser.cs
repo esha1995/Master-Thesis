@@ -9,6 +9,9 @@ using UnityEngine.UI;
 
 public class MaterialChooser : MonoBehaviour
 {
+    public static bool curtainPressed = false;
+    public static bool windowPressed = false;
+    public static bool sourcePressed = false;
     public Transform buttonParent;
     public GameObject buttonPrefab;
     public static surfaces curSurfaceType = surfaces.Floor;
@@ -109,11 +112,18 @@ public class MaterialChooser : MonoBehaviour
         bool stopPlaying = emitters[0].IsPlaying();
         button.GetComponentInChildren<TextMeshProUGUI>().text = stopPlaying ? "Stop source" : "Start source";
         button.onClick.AddListener(delegate{
+            if(!sourcePressed)
+            {
+                sourcePressed = true;
+                TuturialScript.Instance.Outro();
+            }
+
             if(sourceType == AcousticsControl.SourceType.Teacher)
             {
                 Animator animator = soundSource.GetComponent<Animator>();
                 animator.SetBool("talking", !stopPlaying);
 #if UNITY_ANDROID && !UNITY_EDITOR
+                LipSyncController.Instance.GetLipSyncSource().clip = LipSyncController.Instance.syncClip;
                 if(stopPlaying) LipSyncController.Instance.StopLipSync();
                 else LipSyncController.Instance.StartLipSync();
 #endif
@@ -140,11 +150,12 @@ public class MaterialChooser : MonoBehaviour
 
             if(stopPlaying)
             {
-                foreach(var emitter in emitters) emitter.Stop();
+                    foreach(var emitter in emitters) emitter.Stop();
             } 
             else
             {
-                foreach(var emitter in emitters) emitter.Play();
+                if(sourceType == AcousticsControl.SourceType.Teacher) emitters[0].Play();
+                else{foreach(var emitter in emitters) emitter.Play();}
             } 
             Destroy(this.gameObject);
         });
@@ -208,6 +219,12 @@ public class MaterialChooser : MonoBehaviour
         button.GetComponentInChildren<TextMeshProUGUI>().text = buttonName;
         button.onClick.AddListener(delegate
         {
+            if(!curtainPressed)
+            {
+                TuturialScript.Instance.Window();
+                curtainPressed = true;
+            }
+            curtainPressed = true;
             Transform parent = GameObject.FindGameObjectWithTag(Enum.GetName(typeof(surfaces), curSurfaceType)).transform;
             for(int i = 0; i < parent.childCount; ++i)
             {
