@@ -29,6 +29,8 @@ public class AcousticsControl : MonoBehaviour
     public HearingLossSimulator hearingLossSimulator;
 
     private float settingsTimer = 5.0f;
+
+    XRSimpleInteractable[] allInteractables;
     private void Awake() 
     { 
         // If there is an instance, and it's not me, delete myself.
@@ -44,6 +46,7 @@ public class AcousticsControl : MonoBehaviour
 #if !UNITY_EDITOR
         settings.SetActive(false);
 #endif
+
     }
 
     void Start()
@@ -51,6 +54,17 @@ public class AcousticsControl : MonoBehaviour
         hearingLossSimulator = new HearingLossSimulator();
         hearingLossSimulator.SetHearingLoss(HearingLossSimulator.HearingLoss.Off, true); // LEFT OFF
         hearingLossSimulator.SetHearingLoss(HearingLossSimulator.HearingLoss.Off, false); // RIGHT OFF
+        
+        allInteractables = GameObject.FindObjectsOfType<XRSimpleInteractable>();
+        EnableInteractables(false);
+    }
+
+    public void EnableInteractables(bool enable = true)
+    {
+        foreach(var interactable in allInteractables)
+        {
+            interactable.enabled = enable;
+        }
     }
 
     public void SetHearingLoss(HearingLossSimulator.HearingLoss hearingLoss, bool left)

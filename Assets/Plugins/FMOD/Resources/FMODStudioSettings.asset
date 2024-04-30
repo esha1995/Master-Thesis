@@ -204,7 +204,6 @@ MonoBehaviour:
     Plugins:
       Value:
       - phonon_fmod
-      - resonanceaudio
       - HearingLoss
       HasValue: 1
     StaticPlugins:
@@ -391,10 +390,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   switchSettingsMigration: 1
-  HasSourceProject: 1
+  HasSourceProject: 0
   HasPlatforms: 1
   sourceProjectPath: ../Documents/Master Thesis/Master Thesis.fspro
-  sourceBankPath: ../Documents/Master Thesis/Build
+  sourceBankPath: Assets/StreamingAssets/FMODBUILD
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
@@ -415,7 +414,8 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
+  MasterBanks:
+  - Master
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
@@ -426,7 +426,7 @@ MonoBehaviour:
   StopEventsOutsideMaxDistance: 0
   BoltUnitOptionsBuildPending: 0
   EnableErrorCallback: 0
-  SharedLibraryUpdateStage: 1
+  SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
   CurrentVersion: 131840
   HideSetupWizard: 1
@@ -503,8 +503,8 @@ MonoBehaviour:
     Plugins:
       Value:
       - phonon_fmod
-      - resonanceaudio
       - HearLoss4
+      - resonanceaudio
       HasValue: 1
     StaticPlugins:
       Value: []
