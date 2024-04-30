@@ -57,18 +57,11 @@ public class LipSyncController : MonoBehaviour
 #endif
     }
 
-    IEnumerator StartLipSyncCou()
-    {
-        yield return null;
-#if UNITY_ANDROID && !UNITY_EDITOR
-        yield return new WaitUntil(() => teacherSpeaking.IsPlaying());
-        lipSyncSource.Play();
-#endif
-    }
-
     public void StartLipSync()
     {
-        StartCoroutine(StartLipSyncCou());
+#if UNITY_ANDROID && !UNITY_EDITOR
+        lipSyncSource.Play();
+#endif
     }
 
     public void StopLipSync()
