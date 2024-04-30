@@ -7,39 +7,20 @@ public class StopAnimation : MonoBehaviour
 {
 
     public Animator animator;
-    public StudioEventEmitter[] emitters;
-    public StudioEventEmitter playingEmitter;
-    bool talking = false;
+    public StudioEventEmitter eventEmitter;
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
-        emitters = GetComponentsInChildren<StudioEventEmitter>();
+        eventEmitter = GetComponentInChildren<StudioEventEmitter>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!talking)
+        if(!eventEmitter.IsPlaying() && animator.GetBool("talking"))
         {
-            foreach(var emitter in emitters)
-            {
-                if(emitter.IsPlaying())
-                {
-                    playingEmitter = emitter;
-                    animator.SetBool("talking", true);
-                    talking = true;
-                    break;
-                }
-            }
-        }
-        else
-        {
-            if(!playingEmitter.IsPlaying())
-            {
-                talking = false;
-                animator.SetBool("talking", false);
-            }
+            animator.SetBool("talking", false);
         }
     }
 }

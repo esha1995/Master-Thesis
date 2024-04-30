@@ -26,20 +26,6 @@ public class LipSyncController : MonoBehaviour
         } 
     }
 
-    public AudioSource GetLipSyncSource() 
-    {
-#if UNITY_ANDROID && !UNITY_EDITOR
-        return lipSyncSource; 
-#endif
-        return null;
-    } 
-    public void SetLipSyncClip(AudioClip clip) 
-    {
-#if UNITY_ANDROID && !UNITY_EDITOR
-        lipSyncSource.clip = clip; 
-#endif
-    }
-
     // Start is called before the first frame update
     void Start()
     {
@@ -73,8 +59,6 @@ public class LipSyncController : MonoBehaviour
 
     public void StopLipSync()
     {
-#if UNITY_ANDROID && !UNITY_EDITOR
         lipSyncSource.Stop();
-#endif
     }
 }
