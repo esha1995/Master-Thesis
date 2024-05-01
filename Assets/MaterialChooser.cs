@@ -30,6 +30,7 @@ public class MaterialChooser : MonoBehaviour
     public TextMeshProUGUI menuText;
     void Start()
     {   
+        if(!curtainPressed) return;
         StartCoroutine(DestroyYourself());
     }
 

@@ -8,6 +8,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class TuturialScript : MonoBehaviour
 {
+    public GameObject furniture;
     public GameObject panelInfo;
     public TextMeshProUGUI panelText;
     public GameObject posters;
@@ -93,6 +94,7 @@ public class TuturialScript : MonoBehaviour
         AcousticsControl.Instance.EnableInteractables(true);
         teacherInteractable.enabled = false;
         posters.SetActive(true);
+        furniture.SetActive(true);
     }
 
     public IEnumerator StopInfoSign()
@@ -101,6 +103,12 @@ public class TuturialScript : MonoBehaviour
         yield return new WaitUntil(() => !outEmitter.IsPlaying());
         panelInfo.SetActive(false);
         teacherInteractable.enabled = true;
+    }
+
+    void Start()
+    {
+        furniture = GameObject.FindGameObjectWithTag("Furniture");
+        furniture.SetActive(false);
     }
 
 }
