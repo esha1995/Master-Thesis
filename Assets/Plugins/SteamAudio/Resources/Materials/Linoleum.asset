@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1cb82a87a4954a947923856a12b49b38, type: 3}
-  m_Name: Super Absorpant
+  m_Name: Linoleum
   m_EditorClassIdentifier: 
-  lowFreqAbsorption: 0.9
-  midFreqAbsorption: 0.9
-  highFreqAbsorption: 0.9
-  scattering: 0.1
+  lowFreqAbsorption: 0.2
+  midFreqAbsorption: 0.3
+  highFreqAbsorption: 0.4
+  scattering: 0.5
   lowFreqTransmission: 0.1
   midFreqTransmission: 0.1
   highFreqTransmission: 0.1

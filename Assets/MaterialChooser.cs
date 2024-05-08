@@ -16,16 +16,16 @@ public class MaterialChooser : MonoBehaviour
     public GameObject buttonPrefab;
     public static surfaces curSurfaceType = surfaces.Floor;
     public enum surfaces {Floor, Roof, WallBack, WallFront, WallR, WallL};
-    public enum MaterialFloor {Wood, Ceramic, Carpet, Length};
+    public enum MaterialFloor {Wood, Ceramic, Carpet, Linoleum, Length};
     public enum MaterialRoof {Wood, Ceramic, Fibreglass, Length};
     public enum MaterialWall {Plaster, Curtain, Length};
     public static MaterialFloor curMaterialFloor = MaterialFloor.Ceramic;
     public static MaterialRoof curMaterialRoof;
     public static MaterialWall curMaterialWallL, curMaterialWallR, curMaterialWallBack, curMaterialWallFront;
 
-    public static MaterialFloor startMaterialFloor = MaterialFloor.Ceramic;
-    public static MaterialRoof startMaterialRoof = MaterialRoof.Ceramic;
-    public static MaterialWall startMaterialWallL = MaterialWall.Plaster, startMaterialWallR = MaterialWall.Plaster, startMaterialWallBack = MaterialWall.Plaster, startMaterialWallFront;
+    public static MaterialFloor startMaterialFloor = MaterialFloor.Linoleum;
+    public static MaterialRoof startMaterialRoof = MaterialRoof.Wood;
+    public static MaterialWall startMaterialWallL = MaterialWall.Plaster, startMaterialWallR = MaterialWall.Plaster, startMaterialWallBack = MaterialWall.Plaster, startMaterialWallFront = MaterialWall.Plaster;
 
     public TextMeshProUGUI menuText;
     void Start()
@@ -211,6 +211,7 @@ public class MaterialChooser : MonoBehaviour
         if(name == "Plaster") buttonName = "Wall (Plaster/cement)";
         if(name == "Wood") buttonName = "Wood";
         if(name == "Curtain") buttonName = "Curtain (Wool)";
+        if(name == "Linoleum") buttonName = "Linoleum"; 
 
         if(name == "Length")
             return;

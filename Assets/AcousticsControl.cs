@@ -24,7 +24,8 @@ public class AcousticsControl : MonoBehaviour
     public bool furOn = true;
     public enum SourceType {Teacher, Speaker, Playground, Children};
     public static AcousticsControl Instance;
-
+    [Range(0.0f, 1.0f)]
+    public float reflectionMix = 0.5f;
     public List<GameObject> currentResetObjects = new List<GameObject>();
     public HearingLossSimulator hearingLossSimulator;
 
@@ -263,6 +264,11 @@ public class AcousticsControl : MonoBehaviour
         
         DestroyPrevMenus();
         resetMenu.SetActive(true);
+    }
+
+    public void Update()
+    {
+        RuntimeManager.StudioSystem.setParameterByName("Reflection Mix", reflectionMix);
     }
 
     public void DestroyPrevMenus()

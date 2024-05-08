@@ -28,6 +28,7 @@ TagManager:
   - Menu
   - Reset
   - HearingLoss
+  - Linoleum
   layers:
   - Default
   - TransparentFX

@@ -862,7 +862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 4ef433d5b2fa5ad4a9e19a415c6ab619, type: 2}
+  material: {fileID: 11400000, guid: 01801d2ceeb8b4dcea426580ff45dee2, type: 2}
   exportAllChildren: 0
   terrainSimplificationLevel: 0
 --- !u!114 &4528772956592882383
@@ -877,7 +877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb43d10a308b2f46ad4561774f97e52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asset: {fileID: 11400000, guid: ca52a71082f5c47e5850f11fbbbf07eb, type: 2}
+  asset: {fileID: 11400000, guid: 37f407c69910b4822b8a099429da63c3, type: 2}
 --- !u!1 &2369300970899102021
 GameObject:
   m_ObjectHideFlags: 0
